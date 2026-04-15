@@ -16,7 +16,7 @@ JSON.strin.addEventListener("click",function()){
     document.getElementById("myButton").addEventListener("click", function())
     16777215.toString(16)
     var randomColor = Math.floor(Math.random()*16777215).toString(16);
-    document.body.style.backgroundColor = "#" + randomColor;{
+    document.body.style.backgroundColor = "#" + randomColor;
 
 
     
@@ -43,4 +43,4 @@ document.getElementById("fontButton ").addEventListener("click", function(){
     var newSize = parseInt(currentSize) + 2;
     paragraph.style.fontSize = newSize + "px";
 }       
-);  
+); 
